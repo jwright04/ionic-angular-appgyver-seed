@@ -1,7 +1,7 @@
 {
-  "name": "mySteroidsProject",
+  "name": "myIAAProject",
   "version": "0.0.1",
-  "description": "My awesome AppGyver Steroids project.",
+  "description": "My project built with Ionic, AngularJS, Appgyver, and Steroids.",
   "repository": "N/A",
   "readme":"N/A",
   "private": true,
