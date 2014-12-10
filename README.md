@@ -12,7 +12,7 @@ To run this with AppGyver steroids:
 * run `steroids connect`
 * note: `steroids connect --watch` will break the jade watch task (i know, i'm working on it)
 
-To run this with the Jade Template Engine:
+To run create html files with the Jade Template Engine:
 * in a separate terminal window type `grunt watch`
 * all jade files should be added to the www/templates/jade directory
-* file output will go to www/templates
+* .html file output will go to www/templates

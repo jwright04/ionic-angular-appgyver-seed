@@ -1,0 +1,6 @@
+view(title='"Pet Information"')
+  content(has-header='true', has-tabs='true')
+    list
+      item(ng-repeat='pet in pets', type='item-text-wrap', href='#/tab/pet/{{pet.id}}')
+        h3 {{pet.title}}
+        p {{pet.description}}
