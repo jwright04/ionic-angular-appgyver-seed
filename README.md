@@ -1,4 +1,5 @@
 ionic-angular-appgyver-seed
+ASIA (Appgyver Steroids, Ionic, Angular)
 ==========================
 
 The perfect starting point for an Ionic + AppGyver project.
@@ -12,7 +13,7 @@ To run this with AppGyver steroids:
 * run `steroids connect`
 * note: `steroids connect --watch` will break the jade watch task (i know, i'm working on it)
 
-To run create html files with the Jade Template Engine:
+To create html files in your www/template directory with the Jade Template Engine:
 * in a separate terminal window type `grunt watch`
 * all jade files should be added to the www/templates/jade directory
 * .html file output will go to www/templates
