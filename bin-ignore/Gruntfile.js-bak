@@ -1,0 +1,70 @@
+/*
+ * Default Gruntfile for Ionic Angular AppGyver Steroids
+ * http://www.appgyver.com
+ * http://www.appgyver.com/steroids
+ * http://www.ionicframework.com
+ *
+ * Licensed under the MIT license.
+ */
+
+'use strict';
+
+module.exports = function(grunt) {
+
+  //load tasks
+  grunt.loadNpmTasks("grunt-steroids");
+  // grunt.loadNpmTasks("grunt-contrib-jade");
+  // grunt.loadNpmTasks('grunt-contrib-watch');
+  // grunt.loadNpmTasks('grunt-contrib-sass');
+
+  // var config = {
+
+  // };
+
+  //jade configuration
+  // config.jade = {
+  //   html: {
+  //     files: [{
+  //       expand: true,
+  //       cwd: 'www/templates/jade',
+  //       src: ['**/*.jade'],
+  //       dest: 'www/templates',
+  //       ext: '.html'
+  //     }]
+  //   }
+  // };
+
+  //watch configuration
+  // config.watch = {
+  //   scripts: {
+  //     files: ['**/*.jade'],
+  //     tasks: ['default'],
+  //     options: {
+  //       spawn: false,
+  //     },
+  //   },
+  // };
+
+  //files of watch
+  // 'www/js/**/*.js',
+  // 'scss/**/*.scss',
+  // 'www/css/**/*.css'
+
+  //sass configuration
+  // config.sass = {                      
+  //   dist: {
+  //     files: {
+  //       'www/css/app.css': 'scss/*.scss'
+  //     }
+  //   }
+  // };
+
+  //init configuration file and run registered tasks
+  // grunt.initConfig(config);
+  grunt.registerTask("default", [
+    "steroids-make", 
+    "steroids-compile-sass",
+    "steroids-compile-jade"
+
+    ]);
+};
