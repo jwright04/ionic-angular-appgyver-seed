@@ -10,3 +10,8 @@ To run this with AppGyver steroids:
 * [install steroids](http://academy.appgyver.com/courses/2/lessons/32)
 * run `npm install`
 * run `steroids connect --watch`
+
+To run this with the Jade Template Engine:
+* in a separate terminal window type grunt watch
+* all jade files should be added to the www/templates/jade directory
+* file output will go to www/templates

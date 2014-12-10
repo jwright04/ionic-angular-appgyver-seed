@@ -17,7 +17,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
 
   // jade configuration
-  // must include grunt watch in seperate terminal window
+  // must include grunt watch in separate terminal window
   //TO DO: Modify so that only one terminal is needed to watch for jade 
   grunt.initConfig({
     jade: {
