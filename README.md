@@ -23,8 +23,10 @@ To create html files in your www/template directory with the Jade Template Engin
 
 
         module.exports = (grunt)->
+
         grunt.loadNpmTasks "grunt-contrib-copy"
         grunt.loadNpmTasks "grunt-extend-config"
+        
         grunt.registerTask "steroids-copy-www", "Copy files from www/ to dist/ (except for .scss, .jade, and .coffee)", ->
           grunt.extendConfig
             copy:
