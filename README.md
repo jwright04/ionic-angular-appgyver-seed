@@ -26,7 +26,7 @@ To create html files in your www/template directory with the Jade Template Engin
 
         grunt.loadNpmTasks "grunt-contrib-copy"
         grunt.loadNpmTasks "grunt-extend-config"
-        
+
         grunt.registerTask "steroids-copy-www", "Copy files from www/ to dist/ (except for .scss, .jade, and .coffee)", ->
           grunt.extendConfig
             copy:
@@ -38,5 +38,5 @@ To create html files in your www/template directory with the Jade Template Engin
 
           grunt.task.run "copy:www"
 
-A fix to knock this step out is on my TODO list.
+**A fix to knock this step out is on my TODO list.**
 
